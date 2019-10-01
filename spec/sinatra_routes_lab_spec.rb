@@ -6,11 +6,11 @@ describe "Basic Routes Lab" do
       get '/name'
     end
 
-    it "returns a 200 status code" do
+    xit "returns a 200 status code" do
       expect(last_response.status).to eq(200)
     end
 
-    it "displays your name" do
+    xit "displays your name" do
       expect(last_response.body).to include("My name is ")
     end
   end
@@ -20,11 +20,11 @@ describe "Basic Routes Lab" do
       get '/hometown'
     end
 
-    it "returns a 200 status code" do
+    xit "returns a 200 status code" do
       expect(last_response.status).to eq(200)
     end
 
-    it "displays your hometown" do
+    xit "displays your hometown" do
       expect(last_response.body).to include("My hometown is ")
     end
 
@@ -35,11 +35,11 @@ describe "Basic Routes Lab" do
       get '/favorite-song'
     end
 
-    it "returns a 200 status code" do
+    xit "returns a 200 status code" do
       expect(last_response.status).to eq(200)
     end
 
-    it "displays your favorite song" do
+    xit "displays your favorite song" do
       expect(last_response.body).to include("My favorite song is ")
     end
 
